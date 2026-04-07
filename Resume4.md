@@ -1,10 +1,10 @@
-Polimorfisme dan Abstraksi
+# Polimorfisme dan Abstraksi
 
-1. pewarisan
+### 1. pewarisan
    pewarisan memiliki 3 bentuk diantaranya:
-   -Inheritance: extends keyword
-   -super() digunakan untuk memanggil constructor parent
-   -@override untuk override method
+   **-Inheritance**: extends keyword
+   **-super()**: digunakan untuk memanggil constructor parent
+   **-@override**: untuk override method
 contoh kode:
 
 2. Pengantar Polimorfisme:
