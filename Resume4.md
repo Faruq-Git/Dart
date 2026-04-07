@@ -1,6 +1,6 @@
 # Polimorfisme dan Abstraksi
 
-### 1. pewarisan
+1. pewarisan
    pewarisan memiliki 3 bentuk diantaranya:
      
    **-Inheritance**: extends keyword
@@ -10,22 +10,30 @@
    **-@override**: untuk override method
 contoh kode:
 
-### 2. Pengantar Polimorfisme:
+2. Pengantar Polimorfisme:
    Polimorfisme berarti "banyak bentuk" (poly = banyak, morph = bentuk)
    secara konsep: objek dari subclass dapat diperlakukan sebagai objek dari superclass
    contoh: semua Kucing, Anjing, Burung adalah Hewan
+   
    Tipenya berupa:
-  **-i. Compile-time polymorphism**: method overloading (tidak didukung Dart)
-   **-ii. Runtime polymorphism**: Method overriding (didukung Dart)
+   
+  -i. Compile-time polymorphism: method overloading (tidak didukung Dart)
+  
+   -ii. Runtime polymorphism: Method overriding (didukung Dart)
 
 3. Polimorfisme dengan inheritance
    Referensi tipe parent dapat menampung objek child
+   
 contoh kode:
 
-5. Manfaat Polimorfisme
+4. Manfaat Polimorfisme
+
       -fleksibelitas: kode dapat bekerja dengna berbagai tipe
+   
       -extensibility: mudah menambah tipe baru
+   
       -code reusability: method umum di superclass
+   
       -maintainability: perubahan mudah dikelola
 
 6. is dan as Operator
