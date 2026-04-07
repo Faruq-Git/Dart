@@ -2,6 +2,7 @@
 
 ### 1. pewarisan
    pewarisan memiliki 3 bentuk diantaranya:
+     
    **-Inheritance**: extends keyword
    **-super()**: digunakan untuk memanggil constructor parent
    **-@override**: untuk override method
