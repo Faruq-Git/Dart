@@ -19,7 +19,7 @@ contoh kode:
 
    -i. Compile-time polymorphism: method overloading (tidak didukung Dart)
   
-  -ii. Runtime polymorphism: Method overriding (didukung Dart)
+   -ii. Runtime polymorphism: Method overriding (didukung Dart)
 
 3. Polimorfisme dengan inheritance
    Referensi tipe parent dapat menampung objek child
