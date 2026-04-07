@@ -8,9 +8,10 @@
    -super(): digunakan untuk memanggil constructor parent
    
    -@override: untuk override method
-contoh kode:
+   
+contoh kode:https://dartpad.dev/cbc53038c8c3f6ddc0b6691faf2d35f7
 
-2. Pengantar Polimorfisme:
+3. Pengantar Polimorfisme:
    Polimorfisme berarti "banyak bentuk" (poly = banyak, morph = bentuk)
    secara konsep: objek dari subclass dapat diperlakukan sebagai objek dari superclass
    contoh: semua Kucing, Anjing, Burung adalah Hewan
@@ -21,12 +22,12 @@ contoh kode:
   
    -ii. Runtime polymorphism: Method overriding (didukung Dart)
 
-3. Polimorfisme dengan inheritance
+4. Polimorfisme dengan inheritance
    Referensi tipe parent dapat menampung objek child
    
-contoh kode:
+contoh kode: https://dartpad.dev/bfb5bcc5f3086c4138ae44ee79587ec7
 
-4. Manfaat Polimorfisme
+5. Manfaat Polimorfisme
 
       -fleksibelitas: kode dapat bekerja dengna berbagai tipe
    
@@ -36,15 +37,15 @@ contoh kode:
    
       -maintainability: perubahan mudah dikelola
 
-5. is dan as Operator
+6. is dan as Operator
 
    -is berfungsi untuk mengecek tipe objek
 
    -as berfungsi untuk casting tipe objek
    
-contoh kode:
+contoh kode:https://dartpad.dev/6f75bffd60038612a0be1dde6f77cc7e
 
-6. Pengantar Abstraksi
+7. Pengantar Abstraksi
    
    Konsep: menyembunyikan detail implementasi, hanya menunjukkan fungsionalitas.
    
@@ -58,23 +59,23 @@ contoh kode:
    
    caranya di Dart: abstract class dan interface
 
-7. Abstract class
+8. Abstract class
    
    -tidak bisa diinstansiasi langsung
    
    -dapat memiliki method abstract (tanpa implementasi) dan concrete (dengan implementasi)
    
-contoh kode:
+contoh kode:https://dartpad.dev/adbaae6d1d85a780d28dd7ac57a4ba2a
 
-8. Abstract method
+9. Abstract method
    
    -method tanpa body (implementasi)
    
    -harus di override di subclass
    
-contoh kode:
+contoh kode:https://dartpad.dev/aba44c19d5cbab422c6500b367a062f9
 
-9. interface di Dart
+10. interface di Dart
     
     -fakta: sejak Dart 3.0 dart punya keyword interface
    
@@ -82,9 +83,9 @@ contoh kode:
    
     -gunakan implements untuk mengimplementasi interface
    
-contoh kode:
+contoh kode:https://dartpad.dev/1c69bfc591778f5dec26dde890f8a3a9
 
-10. perbedaan extends vs implements
+11. perbedaan extends vs implements
     
     -hubungan: "is-a". "can-do"
     
@@ -94,7 +95,7 @@ contoh kode:
     
     -single: ya (single inheritance). banyak (multiple)
 
-11. static members dan method
+12. static members dan method
     
     static members adalah properti atau method yang dimiliki oleh class itu
     sendiri, bukan oleh objek class. Static member diakses langsung melalui
@@ -104,4 +105,4 @@ contoh kode:
     atau menyimpan konstanta yang terkait dengan class, sehingga dapat diakses
     langsung tanpa perlu membuat objek.
     
-contoh kode:
+contoh kode:https://dartpad.dev/c82b94545ad93e1ef2bd526cbbb70ff4
